@@ -1,0 +1,17 @@
+git init
+
+git status lo que falta agregar
+
+git add .
+
+git commit -m "lorem"
+
+git log ver commit
+
+git checkuot hash volver para atrás al commit deseado
+
+git checkout master ir al últmo commit
+
+git reset --soft hash borra solamente el commit no se mete con el código
+
+git reset --hard hash borra todo hasta el commit

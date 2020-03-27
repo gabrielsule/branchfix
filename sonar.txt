@@ -1,0 +1,10 @@
+C:\sonarqube-7.7\bin\windows-x86-64\StartSonar.bat
+
+cd..
+cd..
+cd sonar-scanner
+C:\sonar-scanner-msbuild-4.7.1.2311-net46\SonarScanner.MSBuild.exe begin /k:"emblue3services"
+MSBuild.exe C:\work\devops\emblue3services\src\Emblue3Services.sln /t:Rebuild
+C:\sonar-scanner-msbuild-4.7.1.2311-net46\SonarScanner.MSBuild.exe end
+
+csc C:\Users\gabriel.s\source\repos\dummyDocumentation\dummyDocumentation\Program.cs /doc:doc.xml
